@@ -24,5 +24,7 @@ namespace EventEase.Models
         public DateTime EventDate { get; set; }
 
         public string? Description { get; set; }
+
+        public Booking? Booking { get; set; }
     }
 }
